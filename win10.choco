@@ -73,7 +73,7 @@ Install-Module GPRegistryPolicy -Force
 route add -p 10.8.0.0 mask 255.255.255.0 172.16.16.52
 route add -p 10.9.0.0 mask 255.255.255.0 172.16.16.52
 route add -p 10.10.110.0 mask 255.255.255.0 172.16.16.52
-Add-Content C:\Windows\System32\drivers\etc\hosts "172.16.16.52 kalima"
+Add-Content C:\Windows\System32\drivers\etc\hosts "172.16.16.52 kali kalima"
 
 # UI
 Import-Module "$env:ChocolateyInstall\helpers\chocolateyInstaller.psm1" -Force
